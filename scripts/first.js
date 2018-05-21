@@ -24,11 +24,3 @@ myApp.init = function()
 }
 
 myApp.init();
-
-
-var t = 1;
-console.log(!t)
-if(!t)
-{
-    alert(t);
-}
