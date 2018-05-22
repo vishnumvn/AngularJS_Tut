@@ -10,8 +10,8 @@ export class ShowCustomerComponent implements OnInit {
 
    p1: Customer;
    p2: Customer;
-  constructor()
-  {
+   info: string;
+  constructor() {
     this.p1 = {'customerId': 11, 'customerName': 'P1_name', 'image': '../assets/images/p1.png' };
     this.p2 = {'customerId': 22, 'customerName': 'P2_name', 'image': '../assets/images/p2.png' };
   }
@@ -19,4 +19,8 @@ export class ShowCustomerComponent implements OnInit {
   ngOnInit() {
   }
 
+  getInformation() {
+    console.log('Hello');
+    this.info = 'Click event binding';
+  }
 }
