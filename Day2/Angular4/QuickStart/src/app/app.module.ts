@@ -4,7 +4,7 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { ShowCustomerComponent } from './show-customer/show-customer.component';
-
+import { FormsModule } from '@angular/forms';
 import {HttpModule} from '@angular/http';
 import { CustomerAPIService } from './customer-api.service';
 
@@ -15,7 +15,7 @@ import { CustomerAPIService } from './customer-api.service';
     ShowCustomerComponent
   ],
   imports: [
-    BrowserModule,  HttpClientModule
+    BrowserModule,  HttpClientModule, FormsModule
   ],
   providers: [CustomerAPIService],
   bootstrap: [AppComponent] // One component used to start while booting

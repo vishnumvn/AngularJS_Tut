@@ -1,0 +1,3 @@
+ng new <name>
+ng serve -o
+ng build --prod

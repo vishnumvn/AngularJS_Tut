@@ -24,10 +24,35 @@
     <td>{{e.name}}</td>
     <td>{{e.image}}</td>
     <!-- <td>{{e.test()}}</td> -->
-    <!-- <td>{{tt}}</td> -->
+    <!-- <td>{{e.test()}}</td> -->
   </tr>
 </table>
-
+<div class="row">
+  <div *ngFor='let e of customerList' class="col-md-4">
+    <div class="card">
+      <div class="card-header">
+          {{e.name}}
+      </div>
+      <div class="card-body">          
+          {{e.id}}
+          {{e.image}}
+      </div>
+    </div>
+  </div>
+</div>
 <input type="button" value="Show Information" class="btn btn-success" (click)='getInformation()' />
 
 {{info}}
+
+<div [ngStyle]="{'font-size':fontsize,'background-color':bgColor,color:'white'}" >
+One way binding  
+</div>
+<hr />
+<h1>TWO way binding</h1>
+<label>Change font size </label>
+<input type="text" [(ngModel)] = 'fontsize' class="form-control">
+
+<h1>Event Binding</h1>
+<img src="../../assets/images/p1.png" id="#000066" (click)='ChangeBackground($event)' />
+
+
