@@ -1,11 +1,11 @@
-<ol>
+<!-- <ol>
 <li> Details of the customer </li>
 <li> Details of the customer </li>
 <li> Details of the customer </li>
-</ol>
+</ol> -->
 
 
-<table class="table">
+<!-- <table class="table">
   <tr>
     <td>{{p1.customerId}}</td>
     <td>{{p1.customerName}}</td>
@@ -15,6 +15,16 @@
     <td>{{p2.customerId}}</td>
     <td>{{p2.customerName}}</td>
     <td><img src="{{p2.image}}" class="img img-thumbnail"/></td>
+  </tr>
+</table> -->
+{{customerList|json}}
+<table class="table">
+  <tr *ngFor='let e of customerList'>
+    <td>{{e.id}}</td>
+    <td>{{e.name}}</td>
+    <td>{{e.image}}</td>
+    <!-- <td>{{e.test()}}</td> -->
+    <!-- <td>{{tt}}</td> -->
   </tr>
 </table>
 
