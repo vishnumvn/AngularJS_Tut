@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hotel-list.component.css']
 })
 export class HotelListComponent implements OnInit {
+  MessageHotel: string;
   rating: string;
   toChild: string ;
   hotelToReview: string;
@@ -24,5 +25,10 @@ export class HotelListComponent implements OnInit {
 
   onchange(val) {
     this.rating = val;
+    if (this.rating === undefined) {
+      this.MessageHotel = 'We cant find in Our DB';
+    } else {
+      this.MessageHotel = '';
+    }
   }
 }

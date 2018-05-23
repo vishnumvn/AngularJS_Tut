@@ -10,3 +10,4 @@
 <app-reviews [selectedHotel]='hotelToReview' (result) ='onchange($event)'></app-reviews>
 
 <h1>{{rating}}</h1>
+<h1 *ngIf='MessageHotel'>{{MessageHotel}}</h1>
