@@ -1,0 +1,711 @@
+{
+  "medicines": [
+    {
+      "id": 1,
+      "name": "MAXARON",
+      "category": "IRON, ASCORBIC ACID, METHYLCOBALAMIN, and LEVOMEFOLATE CALCIUM",
+      "mfgby": "CENTRIX PHARMACEUTICAL, INC,",
+      "ratePerUnit": 1155
+    },
+    {
+      "id": 2,
+      "name": "VENTOLINHFA",
+      "category": "albuterol sulfate",
+      "mfgby": "REMEDYREPACK INC.",
+      "ratePerUnit": 1801
+    },
+    {
+      "id": 3,
+      "name": "Nifedipine",
+      "category": "Nifedipine",
+      "mfgby": "Clinical Solutions Wholesale",
+      "ratePerUnit": 654
+    },
+    {
+      "id": 4,
+      "name": "Petasites Quercus",
+      "category": "Petasites Quercus",
+      "mfgby": "Uriel Pharmacy Inc.",
+      "ratePerUnit": 1917
+    },
+    {
+      "id": 5,
+      "name": "Gambel Oak",
+      "category": "Gambel Oak",
+      "mfgby": "Antigen Laboratories, Inc.",
+      "ratePerUnit": 1751
+    },
+    {
+      "id": 6,
+      "name": "Methylphenidate HCl Oral Solution",
+      "category": "Methylphenidate Hydrochloride",
+      "mfgby": "Mallinckrodt, Inc.",
+      "ratePerUnit": 2217
+    },
+    {
+      "id": 7,
+      "name": "Childrens Allergy",
+      "category": "DIPHENHYDRAMINE HYDROCHLORIDE",
+      "mfgby": "DeMoulas Market Basket",
+      "ratePerUnit": 1273
+    },
+    {
+      "id": 8,
+      "name": "Naproxen Sodium",
+      "category": "Naproxen Sodium",
+      "mfgby": "State of Florida DOH Central Pharmacy",
+      "ratePerUnit": 1795
+    },
+    {
+      "id": 9,
+      "name": "Azithromycin",
+      "category": "Azithromycin",
+      "mfgby": "REMEDYREPACK INC.",
+      "ratePerUnit": 1032
+    },
+    {
+      "id": 10,
+      "name": "ACNE MEDICATION 10",
+      "category": "BENZOYL PEROXIDE",
+      "mfgby": "Rugby Laboratories",
+      "ratePerUnit": 2437
+    },
+    {
+      "id": 11,
+      "name": "Fleet",
+      "category": "Bisacodyl",
+      "mfgby": "C.B. Fleet Company, Inc.",
+      "ratePerUnit": 2359
+    },
+    {
+      "id": 12,
+      "name": "CUPRUM METALLICUM",
+      "category": "COPPER",
+      "mfgby": "Remedy Makers",
+      "ratePerUnit": 1258
+    },
+    {
+      "id": 13,
+      "name": "Indomethacin",
+      "category": "Indomethacin",
+      "mfgby": "Sandoz Inc",
+      "ratePerUnit": 2280
+    },
+    {
+      "id": 14,
+      "name": "ITALIAN RYEGRASS POLLEN",
+      "category": "lolium perenne subsp. multiflorum pollen",
+      "mfgby": "Allergy Laboratories, Inc.",
+      "ratePerUnit": 1055
+    },
+    {
+      "id": 15,
+      "name": "HEALTHY HANDS INSTANT ANTISEPTIC HAND CLEANSER WITH MOISTURIZERS",
+      "category": "ALCOHOL",
+      "mfgby": "NCH Corporation",
+      "ratePerUnit": 923
+    },
+    {
+      "id": 16,
+      "name": "Alprazolam",
+      "category": "Alprazolam",
+      "mfgby": "Sandoz Inc",
+      "ratePerUnit": 464
+    },
+    {
+      "id": 17,
+      "name": "Anticavity Fluoride Rinse",
+      "category": "Sodium Fluoride",
+      "mfgby": "Meijer Distribution, Inc",
+      "ratePerUnit": 2089
+    },
+    {
+      "id": 18,
+      "name": "Fluconazole",
+      "category": "Fluconazole",
+      "mfgby": "Apothecary Shop Wholesale Inc.",
+      "ratePerUnit": 460
+    },
+    {
+      "id": 19,
+      "name": "ZNP",
+      "category": "pyrithione zinc",
+      "mfgby": "Stiefel Laboratories Inc",
+      "ratePerUnit": 1742
+    },
+    {
+      "id": 20,
+      "name": "BEEF",
+      "category": "Beef",
+      "mfgby": "ALK-Abello, Inc.",
+      "ratePerUnit": 1070
+    },
+    {
+      "id": 21,
+      "name": "CTx3 Rinse",
+      "category": "Anticaries",
+      "mfgby": "Oral BioTech",
+      "ratePerUnit": 2061
+    },
+    {
+      "id": 22,
+      "name": "Vaporizing Chest Rub",
+      "category": "Camphor, Eucalyptus Oil, Menthol",
+      "mfgby": "Kareway Product, Inc.",
+      "ratePerUnit": 1265
+    },
+    {
+      "id": 23,
+      "name": "Oxacillin",
+      "category": "oxacillin sodium",
+      "mfgby": "Sagent Pharmaceuticals",
+      "ratePerUnit": 1933
+    },
+    {
+      "id": 24,
+      "name": "good sense ibuprofen pm",
+      "category": "diphenhydramine citrate, ibuprofen",
+      "mfgby": "L Perrigo Company",
+      "ratePerUnit": 1064
+    },
+    {
+      "id": 25,
+      "name": "LEADER Caldyphen",
+      "category": "ZINC OXIDE, PRAMOXINE HYDROCHLORIDE",
+      "mfgby": "Cardinal Health",
+      "ratePerUnit": 2093
+    },
+    {
+      "id": 26,
+      "name": "Ondansetron",
+      "category": "Ondansetron",
+      "mfgby": "Glenmark Generics Inc., USA",
+      "ratePerUnit": 1715
+    },
+    {
+      "id": 27,
+      "name": "Perrigo Benzoyl Peroxide",
+      "category": "Benzoyl Peroxide",
+      "mfgby": "Perrigo New York Inc",
+      "ratePerUnit": 310
+    },
+    {
+      "id": 28,
+      "name": "Saline enema",
+      "category": "SALINE ENEMA",
+      "mfgby": "Blossom Pharmaceuticals",
+      "ratePerUnit": 847
+    },
+    {
+      "id": 29,
+      "name": "Topcare hemorrhoidal",
+      "category": "Mineral oil, petrolatum, phenylephrine hcl",
+      "mfgby": "Topco Associates LLC",
+      "ratePerUnit": 1901
+    },
+    {
+      "id": 30,
+      "name": "SHISEIDO ADVANCED HYDRO-LIQUID COMPACT (REFILL)",
+      "category": "Titanium dioxide",
+      "mfgby": "SHISEIDO CO., LTD.",
+      "ratePerUnit": 464
+    },
+    {
+      "id": 31,
+      "name": "Germ Bloc Hand Sanitizer",
+      "category": "Benzalkonium Chloride",
+      "mfgby": "Willspeed Technologies LLC",
+      "ratePerUnit": 394
+    },
+    {
+      "id": 32,
+      "name": "OASIS Tears",
+      "category": "Glycerin",
+      "mfgby": "OASIS Medical, Inc.",
+      "ratePerUnit": 1779
+    },
+    {
+      "id": 33,
+      "name": "HYDROCODONE BITARTRATE AND ACETAMINOPHEN",
+      "category": "HYDROCODONE BITARTRATE AND ACETAMINOPHEN",
+      "mfgby": "Aphena Pharma Solutions - Tennessee, Inc.",
+      "ratePerUnit": 734
+    },
+    {
+      "id": 34,
+      "name": "GoLYTELY",
+      "category": "PEG-3350 and electrolytes",
+      "mfgby": "Physicians Total Care, Inc.",
+      "ratePerUnit": 1428
+    },
+    {
+      "id": 35,
+      "name": "MICRhoGAM Ultra-Filtered PLUS",
+      "category": "HUMAN RHO(D) IMMUNE GLOBULIN",
+      "mfgby": "Kedrion Melville, Inc.",
+      "ratePerUnit": 909
+    },
+    {
+      "id": 36,
+      "name": "Amlodipine Besylate",
+      "category": "Amlodipine Besylate",
+      "mfgby": "Epic Pharma, LLC",
+      "ratePerUnit": 181
+    },
+    {
+      "id": 37,
+      "name": "Childrens Ear Relief",
+      "category": "Aconitum napellus, Allium cepa, Apis mellifica, Belladonna, Calcarea carbonica, Capsicum annuum, Causticum, Chamomilla, Dulcamara, Ferrum phosphoricum, Hepar sulphuris calcareum, Kali muriaticum, Mercurius dulcis, Mercurius solubilis, Plantago major, Silicea",
+      "mfgby": "King Bio Inc.",
+      "ratePerUnit": 1572
+    },
+    {
+      "id": 38,
+      "name": "Chlordiazepoxide Hydrochloride",
+      "category": "Chlordiazepoxide Hydrochloride",
+      "mfgby": "AvKARE, Inc.",
+      "ratePerUnit": 762
+    },
+    {
+      "id": 39,
+      "name": "Cefotetan",
+      "category": "CEFOTETAN DISODIUM",
+      "mfgby": "APP Pharmaceuticals, LLC",
+      "ratePerUnit": 1530
+    },
+    {
+      "id": 40,
+      "name": "Famciclovir",
+      "category": "Famciclovir",
+      "mfgby": "NorthStar Rx LLC",
+      "ratePerUnit": 1428
+    },
+    {
+      "id": 41,
+      "name": "Nizatidine",
+      "category": "Nizatidine",
+      "mfgby": "Dr Reddy's Laboratories Limited",
+      "ratePerUnit": 1812
+    },
+    {
+      "id": 42,
+      "name": "Candesartan Cilexetil",
+      "category": "Candesartan Cilexetil",
+      "mfgby": "Apotex Corp",
+      "ratePerUnit": 2264
+    },
+    {
+      "id": 43,
+      "name": "Zolpidem Tartrate",
+      "category": "zolpidem tartrate",
+      "mfgby": "Unit Dose Services",
+      "ratePerUnit": 893
+    },
+    {
+      "id": 44,
+      "name": "Softlips Coconut",
+      "category": "lip protectant sunscreen",
+      "mfgby": "The Mentholatum Company",
+      "ratePerUnit": 2481
+    },
+    {
+      "id": 45,
+      "name": "ONDANSETRON",
+      "category": "ONDANSETRON",
+      "mfgby": "Clinical Solutions Wholesale",
+      "ratePerUnit": 1234
+    },
+    {
+      "id": 46,
+      "name": "DEFENDER Antiseptic Foam Hand",
+      "category": "BENZALKONIUM CHLORIDE",
+      "mfgby": "Scientific Molecular Technologies",
+      "ratePerUnit": 1444
+    },
+    {
+      "id": 47,
+      "name": "childrens acetaminophen",
+      "category": "Acetaminophen",
+      "mfgby": "Perrigo New York Inc",
+      "ratePerUnit": 162
+    },
+    {
+      "id": 48,
+      "name": "Naproxen",
+      "category": "Naproxen",
+      "mfgby": "Liberty Pharmaceuticals, Inc.",
+      "ratePerUnit": 2358
+    },
+    {
+      "id": 49,
+      "name": "Benzphetamine Hydrochloride",
+      "category": "Benzphetamine Hydrochloride",
+      "mfgby": "bryant ranch prepack",
+      "ratePerUnit": 745
+    },
+    {
+      "id": 50,
+      "name": "SINGULAIR",
+      "category": "montelukast sodium",
+      "mfgby": "Bryant Ranch Prepack",
+      "ratePerUnit": 2350
+    },
+    {
+      "id": 51,
+      "name": "STOOL SOFTENER",
+      "category": "DOCUSATE SODIUM",
+      "mfgby": "McKesson (Sunmark)",
+      "ratePerUnit": 1103
+    },
+    {
+      "id": 52,
+      "name": "Tolnaftate",
+      "category": "Tolnaftate",
+      "mfgby": "Kareway Product, Inc.",
+      "ratePerUnit": 352
+    },
+    {
+      "id": 53,
+      "name": "PARASITE DETOX",
+      "category": "NOT APPLICABLE",
+      "mfgby": "Energique, Inc.",
+      "ratePerUnit": 910
+    },
+    {
+      "id": 54,
+      "name": "Lights Povidone Iodine Solution",
+      "category": "POVIDONE-IODINE",
+      "mfgby": "Lights Medical Manufacture Co., Ltd.",
+      "ratePerUnit": 845
+    },
+    {
+      "id": 55,
+      "name": "Viscum comp.",
+      "category": "Viscum comp.",
+      "mfgby": "Uriel Pharmacy Inc.",
+      "ratePerUnit": 1229
+    },
+    {
+      "id": 56,
+      "name": "Simvastatin",
+      "category": "Simvastatin",
+      "mfgby": "NCS HealthCare of KY, Inc dba Vangard Labs",
+      "ratePerUnit": 201
+    },
+    {
+      "id": 57,
+      "name": "VertiFree",
+      "category": "Bryonia , Cocculus, Gelsemium, Lobelia inf, Acacia gum, lactose, magnesium stearate, corn starch, sucrose",
+      "mfgby": "Native Remedies LLC",
+      "ratePerUnit": 948
+    },
+    {
+      "id": 58,
+      "name": "100% Pure Green Tea Oil Free Moisturizer",
+      "category": "Zinc Oxide, Titanium Dioxide",
+      "mfgby": "Purity Cosmetics",
+      "ratePerUnit": 350
+    },
+    {
+      "id": 59,
+      "name": "Sure Original Solid Unscented",
+      "category": "Aluminum Zirconium Tricholorohydrex GLY",
+      "mfgby": "Idelle Labs, Ltd",
+      "ratePerUnit": 1030
+    },
+    {
+      "id": 60,
+      "name": "Trimethoprim",
+      "category": "Trimethoprim",
+      "mfgby": "Watson Laboratories, Inc.",
+      "ratePerUnit": 595
+    },
+    {
+      "id": 61,
+      "name": "CYCLOPHOSPHAMIDE",
+      "category": "Cyclophosphamide",
+      "mfgby": "Baxter Healthcare Corporation",
+      "ratePerUnit": 730
+    },
+    {
+      "id": 62,
+      "name": "Hydrocodone Bitartrate and Acetaminophen",
+      "category": "Hydrocodone Bitartrate and Acetaminophen",
+      "mfgby": "Tris Pharma Inc",
+      "ratePerUnit": 144
+    },
+    {
+      "id": 63,
+      "name": "Good Sense Gas Relief",
+      "category": "Simethicone",
+      "mfgby": "L Perrigo Company",
+      "ratePerUnit": 2384
+    },
+    {
+      "id": 64,
+      "name": "PLACENTA EX EMULSION",
+      "category": "Dimethicone",
+      "mfgby": "NATURE REPUBLIC CO., LTD.",
+      "ratePerUnit": 1008
+    },
+    {
+      "id": 65,
+      "name": "Pomada de Sulfa",
+      "category": "Neomycin sulfate",
+      "mfgby": "Menper Distributors, Inc.",
+      "ratePerUnit": 2305
+    },
+    {
+      "id": 66,
+      "name": "Night Time Cherry",
+      "category": "NyQuil Cherry",
+      "mfgby": "Aaron Industries, Inc.",
+      "ratePerUnit": 934
+    },
+    {
+      "id": 67,
+      "name": "ALOE UP PRO SPF 30",
+      "category": "AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE",
+      "mfgby": "Aloe Care International, LLC",
+      "ratePerUnit": 618
+    },
+    {
+      "id": 68,
+      "name": "Cold Sores",
+      "category": "Arsenicum alb., Bryonia, Cantharis, Chelidonium majus, Cistus canadensis, Conium, Croton, Dulcamara, Graphites, Kali bic., Lycopodium, Mezereum, Nux vom., Petroleum, Pulsatilla, Ranunc. bulb., Rhus toxicodendron, Sarsaparilla, Sepia, Sulphur, Thuja occ., Echinacea, Hypericum",
+      "mfgby": "Newton Laboratories, Inc.",
+      "ratePerUnit": 1853
+    },
+    {
+      "id": 69,
+      "name": "Pollens - Trees, Cottonwood, Common Populus deltoides",
+      "category": "Cottonwood, Common Populus deltoides",
+      "mfgby": "Jubilant HollisterStier LLC",
+      "ratePerUnit": 1055
+    },
+    {
+      "id": 70,
+      "name": "Oxaprozin",
+      "category": "Oxaprozin",
+      "mfgby": "Teva Pharmaceuticals USA Inc",
+      "ratePerUnit": 1881
+    },
+    {
+      "id": 71,
+      "name": "Doxycycline Hyclate",
+      "category": "Doxycycline Hyclate",
+      "mfgby": "State of Florida DOH Central Pharmacy",
+      "ratePerUnit": 262
+    },
+    {
+      "id": 72,
+      "name": "Antacid Antigas",
+      "category": "Aluminum Hydroxide, Magnesium Hydroxide, Dimethicone",
+      "mfgby": "Best Choice",
+      "ratePerUnit": 577
+    },
+    {
+      "id": 73,
+      "name": "Atropine Sulfate",
+      "category": "Atropine Sulfate",
+      "mfgby": "General Injectables & Vaccines, Inc",
+      "ratePerUnit": 191
+    },
+    {
+      "id": 74,
+      "name": "PNEUMOVAX 23",
+      "category": "pneumococcal vaccine polyvalent",
+      "mfgby": "Merck Sharp & Dohme Corp.",
+      "ratePerUnit": 993
+    },
+    {
+      "id": 75,
+      "name": "Ativan",
+      "category": "lorazepam",
+      "mfgby": "Cardinal Health",
+      "ratePerUnit": 600
+    },
+    {
+      "id": 76,
+      "name": "Desmopressin Acetate",
+      "category": "Desmopressin Acetate",
+      "mfgby": "Watson Laboratories, Inc.",
+      "ratePerUnit": 1456
+    },
+    {
+      "id": 77,
+      "name": "enema",
+      "category": "Saline",
+      "mfgby": "Hannaford Brothers Company",
+      "ratePerUnit": 1111
+    },
+    {
+      "id": 78,
+      "name": "VANCOMYCIN HYDROCLORIDE",
+      "category": "VANCOMYCIN HYDROCLORIDE",
+      "mfgby": "Heritage Pharmaceuticals Inc.",
+      "ratePerUnit": 186
+    },
+    {
+      "id": 79,
+      "name": "Sedalia",
+      "category": "ACONITUM NAPELLUS, BELLADONNA LEAF, CALENDULA OFFICINALIS FLOWERING TOP, CHELIDONIUM MAJUS, ABRUS PRECATORIUS SEED, VIBURNUM OPULUS ROOT",
+      "mfgby": "Laboratoires Boiron",
+      "ratePerUnit": 623
+    },
+    {
+      "id": 80,
+      "name": "Norethindrone",
+      "category": "Norethindrone",
+      "mfgby": "Northstar Rx LLC",
+      "ratePerUnit": 2298
+    },
+    {
+      "id": 81,
+      "name": "COUMADIN",
+      "category": "warfarin sodium",
+      "mfgby": "Aphena Pharma Solutions - Tennessee, Inc.",
+      "ratePerUnit": 201
+    },
+    {
+      "id": 82,
+      "name": "Transderm Scop",
+      "category": "Scopalamine",
+      "mfgby": "Baxter Healthcare Corporation",
+      "ratePerUnit": 2306
+    },
+    {
+      "id": 83,
+      "name": "IRIS ANTIMICROBIAL HAND SANITIZER",
+      "category": "ALCOHOL",
+      "mfgby": "Smart and Final Stores",
+      "ratePerUnit": 2180
+    },
+    {
+      "id": 84,
+      "name": "Baby Orajel Naturals",
+      "category": "Calcarea phosphorica, Chamomilla, Coffea cruda,Passiflora incarnata",
+      "mfgby": "Church & Dwight Co., Inc.",
+      "ratePerUnit": 1166
+    },
+    {
+      "id": 85,
+      "name": "Haloperidol",
+      "category": "Haloperidol",
+      "mfgby": "Cardinal Health",
+      "ratePerUnit": 345
+    },
+    {
+      "id": 86,
+      "name": "Healthy Accents nighttime",
+      "category": "Acetaminophen, Dextromethorphan Hbr, Doxylamine Succinate",
+      "mfgby": "DZA Brands LLC",
+      "ratePerUnit": 1418
+    },
+    {
+      "id": 87,
+      "name": "Carbidopa and levodopa",
+      "category": "Carbidopa and levodopa",
+      "mfgby": "Golden State Medical Supply, Inc.",
+      "ratePerUnit": 2043
+    },
+    {
+      "id": 88,
+      "name": "Prazosin Hydrochloride",
+      "category": "Prazosin Hydrochloride",
+      "mfgby": "Bryant Ranch Prepack",
+      "ratePerUnit": 149
+    },
+    {
+      "id": 89,
+      "name": "CLE DE PEAU BEAUTE SYNACTIF DAYTIME MOISTURIZER",
+      "category": "AVOBENZONE, OCTINOXATE, and OCTOCRYLENE",
+      "mfgby": "SHISEIDO CO., LTD.",
+      "ratePerUnit": 2463
+    },
+    {
+      "id": 90,
+      "name": "SEROQUEL",
+      "category": "Quetiapine fumarate",
+      "mfgby": "Bryant Ranch Prepack",
+      "ratePerUnit": 1851
+    },
+    {
+      "id": 91,
+      "name": "Temozolomide",
+      "category": "Temozolomide",
+      "mfgby": "Teva Pharmaceuticals USA Inc",
+      "ratePerUnit": 1081
+    },
+    {
+      "id": 92,
+      "name": "SHISEIDO RADIANT LIFTING FOUNDATION",
+      "category": "OCTINOXATE and TITANIUM DIOXIDE",
+      "mfgby": "SHISEIDO AMERICA INC.",
+      "ratePerUnit": 1339
+    },
+    {
+      "id": 93,
+      "name": "Amturnide",
+      "category": "Aliskiren Hemifumarate and Amlodipine Besylate and Hydrochlorothiazide",
+      "mfgby": "Novartis Pharmaceuticals Corporation",
+      "ratePerUnit": 564
+    },
+    {
+      "id": 94,
+      "name": "simvastatin",
+      "category": "simvastatin",
+      "mfgby": "State of Florida DOH Central Pharmacy",
+      "ratePerUnit": 1933
+    },
+    {
+      "id": 95,
+      "name": "Sertraline Hydrochloride",
+      "category": "Sertraline Hydrochloride",
+      "mfgby": "American Health Packaging",
+      "ratePerUnit": 1669
+    },
+    {
+      "id": 96,
+      "name": "Betamethasone Dipropionate",
+      "category": "Betamethasone Dipropionate",
+      "mfgby": "A-S Medication Solutions LLC",
+      "ratePerUnit": 880
+    },
+    {
+      "id": 97,
+      "name": "Nesina",
+      "category": "alogliptin",
+      "mfgby": "Takeda Pharmaceuticals America, Inc.",
+      "ratePerUnit": 2034
+    },
+    {
+      "id": 98,
+      "name": "Adderall",
+      "category": "Dextroamphetamine Sulfate, Dextroamphetamine Saccharate, Amphetamine Sulfate and Amphetamine Aspartate",
+      "mfgby": "Physicians Total Care, Inc.",
+      "ratePerUnit": 539
+    },
+    {
+      "id": 100,
+      "name": "Acid Reducer",
+      "category": "Ranitidine",
+      "mfgby": "Fred's Inc.",
+      "ratePerUnit": 1553
+    },
+    {
+      "id": "201",
+      "name": "test2",
+      "category": "test2",
+      "mfgby": "test2",
+      "ratePerUnit": "655"
+    },
+    {
+      "id": "555",
+      "name": "test4",
+      "category": "test4",
+      "mfgby": "test4",
+      "ratePerUnit": "99"
+    }
+  ]
+}
