@@ -9,6 +9,8 @@ import {Medicine} from '../../models/medicine';
 })
 export class CrudComponent implements OnInit {
 
+  searchCondition: '';
+
   medList: Medicine[];
   med: Medicine = {
     id: 0,
@@ -24,6 +26,8 @@ export class CrudComponent implements OnInit {
 
   edit(val) {
     console.log('Edit - ' + val);
+    this.med = this.medList.filter(v => v.id === val.id)[0];
+    console.log(val);
   }
   remove(val) {
     console.log('Delete - ' + val);

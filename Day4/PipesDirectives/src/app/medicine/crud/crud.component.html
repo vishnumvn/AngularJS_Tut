@@ -6,23 +6,23 @@
   <form #frm='ngForm' (ngSubmit)="add(frm.value)">
     <div>
       <div class="form-group"><label class="col-form-label" for="">ID</label>
-        <input name="id" [ngModel]='med.id' class="form-control" type="text">
+        <input name="id" [ngModel]='med.id' class="form-control" type="text" required>
       </div>
       <div class="form-group">
         <label class="col-form-label" for="">Medicine Name</label>
-        <input name="name" [ngModel]='med.name' class="form-control" type="text">
+        <input name="name" [ngModel]='med.name' class="form-control" type="text" required>
       </div>
       <div class="form-group">
         <label class="col-form-label" for="">Category</label>
-        <input name="category" [ngModel]='med.category' class="form-control" type="text">
+        <input name="category" [ngModel]='med.category' class="form-control" type="text" required>
       </div>
       <div class="form-group">
         <label class="col-form-label" for="">Mfgby</label>
-        <input name="mfgby" [ngModel]='med.mfgby' class="form-control" type="text">
+        <input name="mfgby" [ngModel]='med.mfgby' class="form-control" type="text" required>
       </div>
       <div class="form-group">
         <label class="col-form-label" for="">RatePerUnit</label>
-        <input name="ratePerUnit" [ngModel]='med.ratePerUnit' class="form-control" type="text">
+        <input name="ratePerUnit" [ngModel]='med.ratePerUnit' class="form-control" type="text" required>
       </div>
       <div class="form-group">
         <label class="col-form-label" for=""></label>
@@ -30,7 +30,11 @@
       </div>
     </div>
   </form>
-<table class='table table-striped'>
+  <br>
+  <hr />
+  <input class="form-control form-control-lg" [(ngModel)]='searchCondition' type="text" placeholder="search ...">
+  <hr />
+<table class='table table-bordered'>
   <tr>
     <th>ID</th>
     <th>Name</th>
@@ -40,7 +44,7 @@
     <th>Edit</th>
     <th>Delete</th>
   </tr>
-  <tr *ngFor='let eachMed of medList;let i = index'>
+  <tr *ngFor="let eachMed of medList | filterMed:'id':searchCondition">
     <td>{{eachMed.id}}</td>
     <td>{{eachMed.name}}</td>
     <td>{{eachMed.category}}</td>
@@ -52,5 +56,5 @@
 </table>
 </section>
 <footer>
-
+<h1 appInnerText addText="Copyrighted"></h1>
 </footer>

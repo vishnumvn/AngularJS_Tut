@@ -706,6 +706,13 @@
       "category": "test4",
       "mfgby": "test4",
       "ratePerUnit": "99"
+    },
+    {
+      "id": "sFVjHvU",
+      "name": "",
+      "category": "",
+      "mfgby": "",
+      "ratePerUnit": 0
     }
   ]
 }
