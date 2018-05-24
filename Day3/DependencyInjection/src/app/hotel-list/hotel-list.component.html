@@ -4,7 +4,12 @@
 <!-- <input type="button" value="Load Hotels" (click)='LoadHotels()'> -->
 <!-- <app-reviews [fromParent]=toChild></app-reviews> -->
 <!-- <app-reviews *ngFor='let hotel of hotelList'[hotelName]='hotel'></app-reviews> -->
-
+<app-menu></app-menu>
+<ol *ngIf='menuItems!=undefined'>
+  <li *ngFor='let eachItem of menuItems'>
+    <b (click)='dynamicAdder(eachItem)'>{{eachItem | uppercase}}</b>
+  </li>
+</ol>
 <input type="text" [(ngModel)]='hotelToReview' placeholder="Enter a hotel" />
 
 <app-reviews [selectedHotel]='hotelToReview' (result) ='onchange($event)'></app-reviews>
