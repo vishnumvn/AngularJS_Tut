@@ -16,8 +16,10 @@ export class PlayersComponent implements OnInit {
     this.sub = this.route.params.subscribe(param => this.selTeam = param['team']);
   }
 
-  // ngOnDestroy(): void {
-    
-  // }
+
+  ngOnDestroy(): void {
+    this.sub.unsubscribe();
+    console.log('UnSubscribe called');
+  }
 
 }

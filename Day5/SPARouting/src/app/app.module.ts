@@ -9,6 +9,9 @@ import { CSKComponent } from './csk/csk.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AuthorizeService } from './authorize.service';
 import { ActivateService } from './activate.service';
+import { ErrorComponent } from './error/error.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,13 @@ import { ActivateService } from './activate.service';
     PlayersComponent,
     UmpireComponent,
     SponsorsComponent,
-    CSKComponent
+    CSKComponent,
+    ErrorComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, FormsModule, ReactiveFormsModule
   ],
   providers: [AuthorizeService, ActivateService],
   bootstrap: [AppComponent]
