@@ -1,3 +1,5 @@
 ng new <name>
 ng serve -o
 ng build --prod
+ng g component componentName
+ng g service serviceName
