@@ -1,3 +1,22 @@
+https://appdividend.com/2018/05/05/angular-6-tutorial-with-example-using-angular-cli/
+
+http://bit.ly/ang4_02_vatsan
+http://bit.ly/ang4_01_vatsan
+
+http://bit.ly/vatsank_ests - ES6
+
+https://drive.google.com/file/d/1DMC3-dHErlRXPyp6MOLYyZQEA1RSCmwe/view
+HTTPS://TINYURL.COM/ZALYQTE
+http://bit.ly/JS01_vatsan
+http://bit.ly/JS02_vatsan
+http://bit.ly/JS03_vatsan
+http://bit.ly/JS04_vatsan
+
+
+
+
+-----
+
 ng new <name>
 ng serve -o
 ng build --prod
