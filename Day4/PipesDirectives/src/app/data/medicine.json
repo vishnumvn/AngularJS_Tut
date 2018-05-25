@@ -8,13 +8,6 @@
       "ratePerUnit": 1155
     },
     {
-      "id": 2,
-      "name": "VENTOLINHFA",
-      "category": "albuterol sulfate",
-      "mfgby": "REMEDYREPACK INC.",
-      "ratePerUnit": 1801
-    },
-    {
       "id": 3,
       "name": "Nifedipine",
       "category": "Nifedipine",
@@ -708,11 +701,11 @@
       "ratePerUnit": "99"
     },
     {
-      "id": "sFVjHvU",
-      "name": "",
-      "category": "",
-      "mfgby": "",
-      "ratePerUnit": 0
+      "id": "532",
+      "name": "test",
+      "category": "test",
+      "mfgby": "test",
+      "ratePerUnit": "88"
     }
   ]
 }

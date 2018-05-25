@@ -26,7 +26,8 @@ export class CrudComponent implements OnInit {
 
   edit(val) {
     console.log('Edit - ' + val);
-    this.med = this.medList.filter(v => v.id === val.id)[0];
+    // this.med = this.medList.filter(v => v.id === val.id)[0];
+    this.med = val;
     console.log(val);
   }
   remove(val) {

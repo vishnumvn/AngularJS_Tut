@@ -50,7 +50,7 @@
     <td>{{eachMed.category}}</td>
     <td>{{eachMed.mfgby}}</td>
     <td>{{eachMed.ratePerUnit | currency:'USD'}}</td>
-    <td><input type="button" (click)='edit(eachMed.id)' class="btn btn-sm btn-outline-info" value="Edit"> </td>
+    <td><input type="button" (click)='edit(eachMed)' class="btn btn-sm btn-outline-info" value="Edit"> </td>
     <td><input type="button" (click)='remove(eachMed.id)' class="btn btn-sm btn-outline-danger" value="Delete"></td>
   </tr>
 </table>
